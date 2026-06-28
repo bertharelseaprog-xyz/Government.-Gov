@@ -1,0 +1,86 @@
+here
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document Verification</title>
+
+  <style>
+    body{
+      margin:0;
+      padding:0;
+      background:#f3f3f3;
+      font-family: Arial, sans-serif;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height:100vh;
+    }
+
+    .container{
+      width:90%;
+      max-width:800px;
+      background:#fff;
+      padding:20px;
+      border-radius:12px;
+      box-shadow:0 0 15px rgba(0,0,0,0.1);
+      text-align:center;
+    }
+
+    h1{
+      color:#1565c0;
+      margin-bottom:20px;
+    }
+
+    .image-box img{
+      width:100%;
+      border-radius:10px;
+      border:1px solid #ddd;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 25px;
+      background:#1565c0;
+      color:#fff;
+      text-decoration:none;
+      border-radius:8px;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#0d47a1;
+    }
+
+    .footer{
+      margin-top:25px;
+      color:#777;
+      font-size:14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Document Verification</h1>
+
+    <div class="image-box">
+      <img src="1000049366.jpg" alt="Document Image">
+    </div>
+
+    <a class="btn" href="1000049366.jpg" target="_blank">
+      Open Image
+    </a>
+
+    <div class="footer">
+      © 2025 Verification Portal
+    </div>
+
+  </div>
+
+</body>
+</html>
